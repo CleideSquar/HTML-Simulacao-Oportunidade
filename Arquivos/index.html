@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário de Oportunidade Salesforce</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    
+    <header>
+        <h1>Oportunidades - Salesforce</h1>
+    </header>
+    <div>
+        <img src="1.jpg" alt="imagem1">
+    </div>
+    <div class="form">
+        <form>
+            <label>
+                <input type="checkbox" name="particular">Particular
+            </label><br/><br/>
+            <label>
+                Nome da Oportunidade:
+                <input type="text" name="nome_oportunidade">
+            </label><br/><br/>
+            <label>
+                Valor:
+                <input type="number" name="valor">
+            </label><br/><br/>
+            <label>
+                Fase:
+                <select name="fase">
+                    <option value="prospecting">Prospecting</option>
+                    <option value="qualification">Qualification</option>
+                    <option value="needs">Needs Analysis</option>
+                    <option value="value">Value Proposition</option>
+                    <option value="decision">Id. Decision Makers</option>
+                    <option value="perception">Perception Analysis</option>
+                    <option value="proposal">Proposal/Price Quote</option>
+                    <option value="negotiation">Negotiation/Review</option>
+                    <option value="won">Closed Won</option>
+                    <option value="lost">Closed Lost</option>
+                </select>
+            </label><br/><br/>
+            <label>
+                Tipo:
+                <select name="tipo">
+                    <option value="upgrade">Existing Customer - Upgrade</option>
+                    <option value="replacement">Existing Customer - Replacement</option>
+                    <option value="downgrade">Existing Customer - Downgrade</option>
+                    <option value="customer">New Customer</option>
+                </select>
+            </label><br/><br/>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <div>
+        <img src="2.jpg" alt="imagem2">
+    </div>
+
+    <footer>
+        <p>Endereço, 000 - Centro - São Paulo/SP</p>
+        <p>E-mail: contato@contato.com.br</p>
+        <p>Telefone: (11) 0000-0000</p>
+        <p>Cleide Pereira &copy2023</p>
+    </footer>    
+
 </body>
 </html>
